@@ -1,0 +1,347 @@
+{
+  "App": {
+    "name": "alfra",
+    "version": "1.0.2"
+  },
+  "documents": {
+    "Entity:Module": {
+      "__app__": "loopar"
+    },
+    "Entity:App": {
+      "__app__": "loopar"
+    },
+    "App:alfra": {
+      "type": "Web App",
+      "name": "alfra",
+      "description": "Alfredo Ramirez — full-stack developer",
+      "version": "1.0.2",
+      "autor": "alfredrz2012@icloud.com",
+      "icon": "SquareTerminal",
+      "gap": "",
+      "col_padding": "p-8",
+      "logo": "[{\"name\":\"alfra-logo-light.svg\",\"type\":\"image\",\"src\":\"/assets/public/alfra-logo-light.svg\"}]",
+      "logo_dark": "[{\"name\":\"alfra-logo-dark.svg\",\"type\":\"image\",\"src\":\"/assets/public/alfra-logo-dark.svg\"}]",
+      "logo_mini": "[{\"name\":\"alfra-mark.svg\",\"type\":\"image\",\"src\":\"/assets/public/alfra-mark.svg\"}]",
+      "logo_mini_dark": "[{\"name\":\"alfra-mark.svg\",\"type\":\"image\",\"src\":\"/assets/public/alfra-mark.svg\"}]",
+      "favicon": "[{\"name\":\"alfra-favicon.svg\",\"type\":\"image\",\"src\":\"/assets/public/alfra-favicon.svg\"}]",
+      "logo_width": 2,
+      "logo_height": "36",
+      "has_footer": 1,
+      "footer": "<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; padding: 40px 20px; gap: 30px;\">\n  <div style=\"flex: 1; min-width: 260px;\">\n\n### alfra.dev\n\nPersonal site of Alfredo Ramirez Diaz — full-stack developer and creator of [Loopar](https://loopar.build).\n\n✉️ [hello@alfra.dev](mailto:hello@alfra.dev)\n  </div>\n\n  <div style=\"flex: 1; min-width: 200px;\">\n\n### Projects\n\n* [Loopar](https://loopar.build)\n* [Ren POS](https://github.com/alphabit-technology/renpos)\n* [All projects](/projects)\n  </div>\n\n  <div style=\"flex: 1; min-width: 200px;\">\n\n### Elsewhere\n\n* [GitHub](https://github.com/alfradotdev)\n* [X / Twitter](https://x.com/alfradev)\n* [LinkedIn](https://www.linkedin.com/in/alfradev)\n  </div>\n</div>",
+      "has_copyright": 1,
+      "copyright": "<div style=\"text-align: center; padding: 20px; border-top: 1px solid rgba(128,128,128,0.3); font-size: 0.9em;\">\n\n© 2026 **Alfredo Ramirez Diaz** · Built with [Loopar](https://loopar.build)\n</div>",
+      "fixed": 1,
+      "logo_position": "",
+      "rounded": "full",
+      "show_user_section": 0,
+      "solid": 1,
+      "opacity": "",
+      "menu_items": [
+        {
+          "parent_document": "App",
+          "name": "oo23BgGMha9Oq7R",
+          "page": "Alfra Home",
+          "link": "Home",
+          "parent_menu": null,
+          "document_parent_name": null,
+          "router_only": 0
+        },
+        {
+          "parent_document": "App",
+          "name": "QNAyO8d7c35M7Bb",
+          "page": "Alfra Projects",
+          "link": "Projects",
+          "parent_menu": null,
+          "document_parent_name": null,
+          "router_only": 0
+        },
+        {
+          "parent_document": "App",
+          "name": "L3F7ICKv4oR2H00",
+          "page": "Alfra Blog",
+          "link": "Blog",
+          "parent_menu": null,
+          "document_parent_name": null,
+          "router_only": 0
+        },
+        {
+          "parent_document": "App",
+          "name": "bd8irj118QPN9qx",
+          "page": "Alfra About",
+          "link": "About",
+          "parent_menu": null,
+          "document_parent_name": null,
+          "router_only": 0
+        },
+        {
+          "parent_document": "App",
+          "name": "fh58QJ42RHWe8Bq",
+          "page": "Alfra Contact",
+          "link": "Contact",
+          "parent_menu": null,
+          "document_parent_name": null,
+          "router_only": 0
+        }
+      ],
+      "menu_actions": [
+        {
+          "parent_document": "App",
+          "name": "LrKW2o190tjJE09",
+          "icon": "SiGithub",
+          "action": "https://github.com/alfradotdev"
+        },
+        {
+          "parent_document": "App",
+          "name": "AD3482LaEwqi7MQ",
+          "icon": "SiX",
+          "action": "https://x.com/alfradev"
+        }
+      ],
+      "info": ""
+    },
+    "Entity:Module Group": {
+      "__app__": "loopar"
+    },
+    "Module Group:modules": {
+      "name": "modules",
+      "description": "Modules",
+      "in_sidebar": 1
+    },
+    "Module:alfra": {
+      "name": "alfra",
+      "description": "alfra.dev",
+      "app_name": "alfra",
+      "module_group": "modules",
+      "icon": "SquareTerminal",
+      "in_sidebar": 1
+    },
+    "Entity:Alfra About": {
+      "__root__": "/apps/alfra/modules/alfra/pages/alfra-about"
+    },
+    "Entity:Menu Item": {
+      "__app__": "loopar"
+    },
+    "Entity:Menu Action": {
+      "__app__": "loopar"
+    },
+    "Entity:Resources": {
+      "__app__": "loopar"
+    },
+    "Entity:Entity": {
+      "__app__": "loopar"
+    },
+    "Entity:Alfra Blog": {
+      "__root__": "/apps/alfra/modules/alfra/pages/alfra-blog"
+    },
+    "Entity:Alfra Contact": {
+      "__root__": "/apps/alfra/modules/alfra/pages/alfra-contact"
+    },
+    "Entity:Alfra Home": {
+      "__root__": "/apps/alfra/modules/alfra/pages/alfra-home"
+    },
+    "Entity:Alfra Projects": {
+      "__root__": "/apps/alfra/modules/alfra/pages/alfra-projects"
+    },
+    "Builder:Page Builder": {
+      "__app__": "loopar"
+    },
+    "Page Builder:Alfra Home": {
+      "name": "Alfra Home",
+      "module": "alfra",
+      "enable_history": 0,
+      "enable_comments": 0,
+      "doc_structure": "[{\"node\":\"ah_014\",\"element\":\"section\",\"data\":{\"label\":\"Hero\",\"class\":\"py-12 md:py-20\"},\"elements\":[{\"node\":\"ah_013\",\"element\":\"row\",\"data\":{\"label\":\"Hero row\",\"layout\":\"[55,45]\",\"spacing\":\"3\",\"col_padding\":\"p-0\",\"horizontal_alignment\":\"left\",\"vertical_alignment\":\"center\",\"row_height\":\"auto\",\"full_height\":false},\"elements\":[{\"node\":\"ah_010\",\"element\":\"col\",\"data\":{\"label\":\"Hero copy\",\"animation\":\"fade-right\"},\"elements\":[{\"node\":\"ah_009\",\"element\":\"div\",\"data\":{\"label\":\"Hero text\",\"class\":\"text-center text-sm-left\"},\"elements\":[{\"node\":\"ah_001\",\"element\":\"generic\",\"data\":{\"label\":\"Pill\",\"inner_text\":\"✦  Full-stack developer · Boston, MA\",\"class\":\"inline-block text-xs font-semibold tracking-wider text-primary border border-primary/30 rounded-full px-4 py-1 mb-5\"}},{\"node\":\"ah_002\",\"element\":\"title\",\"data\":{\"label\":\"Title\",\"text\":\"I build the tools I wish existed\",\"class\":\"display-3 mb-4\"}},{\"node\":\"ah_003\",\"element\":\"subtitle\",\"data\":{\"label\":\"Subtitle\",\"text\":\"I'm Alfredo Ramirez — a full-stack developer from Honduras. I create Loopar, an open-source meta-framework, and ship products and client sites on top of it.\",\"class\":\"lead text-muted-foreground mb-6\"}},{\"node\":\"ah_008\",\"element\":\"row\",\"data\":{\"label\":\"Hero CTAs\",\"layout\":\"[50,50]\",\"spacing\":1,\"col_padding\":\"p-0\",\"horizontal_alignment\":\"left\",\"vertical_alignment\":\"top\",\"row_height\":\"auto\",\"full_height\":false,\"class\":\"max-w-md\"},\"elements\":[{\"node\":\"ah_005\",\"element\":\"col\",\"data\":{\"label\":\"CTA 1\"},\"elements\":[{\"node\":\"ah_004\",\"element\":\"link\",\"data\":{\"label\":\"See my projects\",\"to\":\"/projects\",\"variant\":\"primary\",\"size\":\"lg\"}}]},{\"node\":\"ah_007\",\"element\":\"col\",\"data\":{\"label\":\"CTA 2\"},\"elements\":[{\"node\":\"ah_006\",\"element\":\"link\",\"data\":{\"label\":\"Read the blog\",\"to\":\"/blog\",\"variant\":\"secondary\",\"size\":\"lg\"}}]}]}]}]},{\"node\":\"ah_012\",\"element\":\"col\",\"data\":{\"label\":\"Hero art\",\"animation\":\"fade-left\"},\"elements\":[{\"node\":\"ah_011\",\"element\":\"image\",\"data\":{\"label\":\"Hero illustration\",\"background_image\":[{\"name\":\"alfra-hero.svg\",\"type\":\"image\",\"src\":\"/assets/public/alfra-hero.svg\"}],\"background_size\":\"contain\",\"aspect_ratio\":\"1:1\",\"class\":\"p-0\"}}]}]}]},{\"node\":\"ah_039\",\"element\":\"section\",\"data\":{\"label\":\"Capabilities\",\"class\":\"py-16\"},\"elements\":[{\"node\":\"ah_018\",\"element\":\"text_block\",\"data\":{\"label\":\"Capabilities header\",\"class\":\"text-center mb-10\"},\"elements\":[{\"node\":\"ah_015\",\"element\":\"subtitle\",\"data\":{\"label\":\"Eyebrow\",\"text\":\"What I do\",\"class\":\"text-primary uppercase tracking-wider text-sm font-semibold\"}},{\"node\":\"ah_016\",\"element\":\"title\",\"data\":{\"label\":\"Title\",\"text\":\"From database schema to deployed product\",\"class\":\"display-5 mb-3\"}},{\"node\":\"ah_017\",\"element\":\"paragraph\",\"data\":{\"label\":\"Paragraph\",\"text\":\"Most of my work lives where software meets real businesses — restaurants, contractors, service companies — so I care about the whole path, not just one layer.\",\"class\":\"text-muted-foreground max-w-2xl mx-auto\"}}]},{\"node\":\"ah_028\",\"element\":\"row\",\"data\":{\"label\":\"Capabilities row 1\",\"layout\":\"[33,33,33]\",\"spacing\":\"2\",\"col_padding\":\"p-0\",\"horizontal_alignment\":\"left\",\"vertical_alignment\":\"stretch\",\"row_height\":\"auto\",\"full_height\":false},\"elements\":[{\"node\":\"ah_021\",\"element\":\"col\",\"data\":{\"label\":\"Cap Full-stack apps\",\"animation\":\"fade-up\"},\"elements\":[{\"node\":\"ah_020\",\"element\":\"panel\",\"data\":{\"label\":\"Panel Full-stack apps\",\"variant\":\"gradient\",\"rounded\":\"xl\",\"bg_color\":\"secondary\",\"bg_opacity\":\"25\",\"class\":\"p-6 h-full\"},\"elements\":[{\"node\":\"ah_019\",\"element\":\"text_block_icon\",\"data\":{\"label\":\"Full-stack apps\",\"icon\":\"Layers\",\"title\":\"Full-stack apps\",\"text\":\"React, Node.js, Vite and Tailwind, with server-side rendering and real-time UIs that ship to production.\",\"class\":\"text-left\"}}]}]},{\"node\":\"ah_024\",\"element\":\"col\",\"data\":{\"label\":\"Cap Frameworks & tooling\",\"animation\":\"fade-up\",\"animation_delay\":\"100\"},\"elements\":[{\"node\":\"ah_023\",\"element\":\"panel\",\"data\":{\"label\":\"Panel Frameworks & tooling\",\"variant\":\"gradient\",\"rounded\":\"xl\",\"bg_color\":\"secondary\",\"bg_opacity\":\"25\",\"class\":\"p-6 h-full\"},\"elements\":[{\"node\":\"ah_022\",\"element\":\"text_block_icon\",\"data\":{\"label\":\"Frameworks & tooling\",\"icon\":\"Blocks\",\"title\":\"Frameworks & tooling\",\"text\":\"I build the tools before the apps: Loopar turns an entity definition into database, API, forms and views.\",\"class\":\"text-left\"}}]}]},{\"node\":\"ah_027\",\"element\":\"col\",\"data\":{\"label\":\"Cap ERP & business systems\",\"animation\":\"fade-up\",\"animation_delay\":\"200\"},\"elements\":[{\"node\":\"ah_026\",\"element\":\"panel\",\"data\":{\"label\":\"Panel ERP & business systems\",\"variant\":\"gradient\",\"rounded\":\"xl\",\"bg_color\":\"secondary\",\"bg_opacity\":\"25\",\"class\":\"p-6 h-full\"},\"elements\":[{\"node\":\"ah_025\",\"element\":\"text_block_icon\",\"data\":{\"label\":\"ERP & business systems\",\"icon\":\"Building2\",\"title\":\"ERP & business systems\",\"text\":\"Frappe and ERPNext apps in Python and JavaScript: point of sale, kitchen flows, quoting and operations.\",\"class\":\"text-left\"}}]}]}]},{\"node\":\"ah_038\",\"element\":\"row\",\"data\":{\"label\":\"Capabilities row 2\",\"layout\":\"[33,33,33]\",\"spacing\":\"2\",\"col_padding\":\"p-0\",\"horizontal_alignment\":\"left\",\"vertical_alignment\":\"stretch\",\"row_height\":\"auto\",\"full_height\":false},\"elements\":[{\"node\":\"ah_031\",\"element\":\"col\",\"data\":{\"label\":\"Cap SaaS & multi-tenancy\",\"animation\":\"fade-up\"},\"elements\":[{\"node\":\"ah_030\",\"element\":\"panel\",\"data\":{\"label\":\"Panel SaaS & multi-tenancy\",\"variant\":\"gradient\",\"rounded\":\"xl\",\"bg_color\":\"secondary\",\"bg_opacity\":\"25\",\"class\":\"p-6 h-full\"},\"elements\":[{\"node\":\"ah_029\",\"element\":\"text_block_icon\",\"data\":{\"label\":\"SaaS & multi-tenancy\",\"icon\":\"Cloud\",\"title\":\"SaaS & multi-tenancy\",\"text\":\"Single-core multi-tenant architecture, Stripe subscriptions and automated tenant provisioning.\",\"class\":\"text-left\"}}]}]},{\"node\":\"ah_034\",\"element\":\"col\",\"data\":{\"label\":\"Cap Data & APIs\",\"animation\":\"fade-up\",\"animation_delay\":\"100\"},\"elements\":[{\"node\":\"ah_033\",\"element\":\"panel\",\"data\":{\"label\":\"Panel Data & APIs\",\"variant\":\"gradient\",\"rounded\":\"xl\",\"bg_color\":\"secondary\",\"bg_opacity\":\"25\",\"class\":\"p-6 h-full\"},\"elements\":[{\"node\":\"ah_032\",\"element\":\"text_block_icon\",\"data\":{\"label\":\"Data & APIs\",\"icon\":\"Database\",\"title\":\"Data & APIs\",\"text\":\"MySQL, PostgreSQL and SQLite through Knex, REST endpoints, permissions and per-tenant data isolation.\",\"class\":\"text-left\"}}]}]},{\"node\":\"ah_037\",\"element\":\"col\",\"data\":{\"label\":\"Cap AI integration\",\"animation\":\"fade-up\",\"animation_delay\":\"200\"},\"elements\":[{\"node\":\"ah_036\",\"element\":\"panel\",\"data\":{\"label\":\"Panel AI integration\",\"variant\":\"gradient\",\"rounded\":\"xl\",\"bg_color\":\"secondary\",\"bg_opacity\":\"25\",\"class\":\"p-6 h-full\"},\"elements\":[{\"node\":\"ah_035\",\"element\":\"text_block_icon\",\"data\":{\"label\":\"AI integration\",\"icon\":\"Sparkles\",\"title\":\"AI integration\",\"text\":\"OpenAI-compatible providers wired into products, with structured outputs and fallbacks that degrade cleanly.\",\"class\":\"text-left\"}}]}]}]}]},{\"node\":\"ah_044\",\"element\":\"section\",\"data\":{\"label\":\"Featured projects\",\"class\":\"py-8\"},\"elements\":[{\"node\":\"ah_040\",\"element\":\"collection\",\"data\":{\"label\":\"Featured projects\",\"options\":\"Project\",\"title\":\"Featured projects\",\"subtitle\":\"Products I design, build and maintain end to end.\",\"featured_only\":1,\"columns\":2,\"page_size\":4}},{\"node\":\"ah_043\",\"element\":\"row\",\"data\":{\"label\":\"All projects link\",\"layout\":\"[100]\",\"spacing\":1,\"col_padding\":\"p-0\",\"horizontal_alignment\":\"center\",\"vertical_alignment\":\"top\",\"row_height\":\"auto\",\"full_height\":false},\"elements\":[{\"node\":\"ah_042\",\"element\":\"col\",\"data\":{\"label\":\"Link col\"},\"elements\":[{\"node\":\"ah_041\",\"element\":\"link\",\"data\":{\"label\":\"All projects →\",\"to\":\"/projects\",\"variant\":\"secondary\",\"size\":\"lg\"}}]}]}]},{\"node\":\"ah_046\",\"element\":\"section\",\"data\":{\"label\":\"Latest writing\",\"class\":\"py-8\"},\"elements\":[{\"node\":\"ah_045\",\"element\":\"collection\",\"data\":{\"label\":\"Latest posts\",\"options\":\"Post\",\"title\":\"Latest writing\",\"subtitle\":\"Notes on building frameworks, products and a career in software.\",\"columns\":3,\"page_size\":3,\"empty_message\":\"First posts are on the way.\"}}]},{\"node\":\"ah_056\",\"element\":\"section\",\"data\":{\"label\":\"Final CTA\",\"class\":\"py-20\"},\"elements\":[{\"node\":\"ah_055\",\"element\":\"panel\",\"data\":{\"label\":\"CTA panel\",\"variant\":\"gradient\",\"rounded\":\"xl\",\"bg_color\":\"primary\",\"bg_opacity\":\"10\",\"class\":\"p-10 text-center max-w-4xl mx-auto\"},\"elements\":[{\"node\":\"ah_047\",\"element\":\"subtitle\",\"data\":{\"label\":\"Eyebrow\",\"text\":\"Let's talk\",\"class\":\"text-primary uppercase tracking-wider text-sm font-semibold\"}},{\"node\":\"ah_048\",\"element\":\"title\",\"data\":{\"label\":\"Title\",\"text\":\"Have a project or an idea worth building?\",\"class\":\"display-5 mb-3\"}},{\"node\":\"ah_049\",\"element\":\"paragraph\",\"data\":{\"label\":\"Paragraph\",\"text\":\"Business software, a website that actually generates leads, or a Loopar question — write me.\",\"class\":\"text-muted-foreground mb-6\"}},{\"node\":\"ah_054\",\"element\":\"row\",\"data\":{\"label\":\"CTA row\",\"layout\":\"[50,50]\",\"spacing\":1,\"col_padding\":\"p-0\",\"horizontal_alignment\":\"left\",\"vertical_alignment\":\"top\",\"row_height\":\"auto\",\"full_height\":false,\"class\":\"max-w-md mx-auto\"},\"elements\":[{\"node\":\"ah_051\",\"element\":\"col\",\"data\":{\"label\":\"CTA a\"},\"elements\":[{\"node\":\"ah_050\",\"element\":\"link\",\"data\":{\"label\":\"Get in touch\",\"to\":\"/contact\",\"variant\":\"primary\",\"size\":\"lg\"}}]},{\"node\":\"ah_053\",\"element\":\"col\",\"data\":{\"label\":\"CTA b\"},\"elements\":[{\"node\":\"ah_052\",\"element\":\"link\",\"data\":{\"label\":\"About me\",\"to\":\"/about\",\"variant\":\"secondary\",\"size\":\"lg\"}}]}]}]}]}]"
+    },
+    "Page Builder:Alfra Projects": {
+      "name": "Alfra Projects",
+      "module": "alfra",
+      "enable_history": 0,
+      "enable_comments": 0,
+      "doc_structure": "[{\"node\":\"ap_005\",\"element\":\"section\",\"data\":{\"label\":\"Projects header\",\"class\":\"pt-16 pb-4\"},\"elements\":[{\"node\":\"ap_004\",\"element\":\"text_block\",\"data\":{\"label\":\"Header\",\"class\":\"text-center mb-10\"},\"elements\":[{\"node\":\"ap_001\",\"element\":\"subtitle\",\"data\":{\"label\":\"Eyebrow\",\"text\":\"Projects\",\"class\":\"text-primary uppercase tracking-wider text-sm font-semibold\"}},{\"node\":\"ap_002\",\"element\":\"title\",\"data\":{\"label\":\"Title\",\"text\":\"Things I've built\",\"class\":\"display-5 mb-3\"}},{\"node\":\"ap_003\",\"element\":\"paragraph\",\"data\":{\"label\":\"Paragraph\",\"text\":\"Open-source products I create and maintain, and client work running in production on Loopar.\",\"class\":\"text-muted-foreground max-w-2xl mx-auto\"}}]}]},{\"node\":\"ap_007\",\"element\":\"section\",\"data\":{\"label\":\"Projects list\",\"class\":\"pb-16\"},\"elements\":[{\"node\":\"ap_006\",\"element\":\"collection\",\"data\":{\"label\":\"All projects\",\"options\":\"Project\",\"columns\":3,\"page_size\":12}}]}]"
+    },
+    "Page Builder:Alfra Blog": {
+      "name": "Alfra Blog",
+      "module": "alfra",
+      "enable_history": 0,
+      "enable_comments": 0,
+      "doc_structure": "[{\"node\":\"ab_005\",\"element\":\"section\",\"data\":{\"label\":\"Blog header\",\"class\":\"pt-16 pb-4\"},\"elements\":[{\"node\":\"ab_004\",\"element\":\"text_block\",\"data\":{\"label\":\"Header\",\"class\":\"text-center mb-10\"},\"elements\":[{\"node\":\"ab_001\",\"element\":\"subtitle\",\"data\":{\"label\":\"Eyebrow\",\"text\":\"Blog\",\"class\":\"text-primary uppercase tracking-wider text-sm font-semibold\"}},{\"node\":\"ab_002\",\"element\":\"title\",\"data\":{\"label\":\"Title\",\"text\":\"Writing\",\"class\":\"display-5 mb-3\"}},{\"node\":\"ab_003\",\"element\":\"paragraph\",\"data\":{\"label\":\"Paragraph\",\"text\":\"Build-in-public notes: architecture decisions, lessons from shipping to real businesses, and the road from Honduras to Boston.\",\"class\":\"text-muted-foreground max-w-2xl mx-auto\"}}]}]},{\"node\":\"ab_007\",\"element\":\"section\",\"data\":{\"label\":\"Blog list\",\"class\":\"pb-16\"},\"elements\":[{\"node\":\"ab_006\",\"element\":\"collection\",\"data\":{\"label\":\"All posts\",\"options\":\"Post\",\"columns\":3,\"page_size\":9,\"empty_message\":\"No posts yet — the first one is coming soon.\"}}]}]"
+    },
+    "Page Builder:Alfra About": {
+      "name": "Alfra About",
+      "module": "alfra",
+      "enable_history": 0,
+      "enable_comments": 0,
+      "doc_structure": "[{\"node\":\"aa_006\",\"element\":\"section\",\"data\":{\"label\":\"About\",\"class\":\"py-16\"},\"elements\":[{\"node\":\"aa_005\",\"element\":\"row\",\"data\":{\"label\":\"About row\",\"layout\":\"[55,45]\",\"spacing\":\"3\",\"col_padding\":\"p-0\",\"horizontal_alignment\":\"left\",\"vertical_alignment\":\"center\",\"row_height\":\"auto\",\"full_height\":false},\"elements\":[{\"node\":\"aa_002\",\"element\":\"col\",\"data\":{\"label\":\"About text\",\"animation\":\"fade-right\"},\"elements\":[{\"node\":\"aa_001\",\"element\":\"markdown\",\"data\":{\"label\":\"About me\",\"value\":\"# About me\\n\\nI'm **Alfredo Ramirez Diaz**, a full-stack developer living in Massachusetts, near Boston.\\n\\nI studied **Computer Engineering at UNITEC** in Honduras. My first serious work was in PHP with Yii2's MVC; later I spent years building business systems on **Frappe and ERPNext** — that's where [Ren POS](/projects), my restaurant point of sale, comes from.\\n\\nOver time I kept writing the same plumbing again and again: models, forms, permissions, APIs, deployment. So I started **[Loopar](https://loopar.build)** — an open-source meta-framework where you define an entity once and get the database, the REST API, the forms and the views. This site is itself a Loopar app.\\n\\n## What drives me\\n\\nI'm motivated by automation and by tools that give people back their time. I also want to show other developers from Honduras, and from anywhere with fewer opportunities, that you can build serious software from wherever you start.\\n\\n## Outside the code\\n\\nI film planes, birds and New England landscapes under **Ardframes** — the same patience it takes to wait for the right light helps with hard bugs.\\n\"}}]},{\"node\":\"aa_004\",\"element\":\"col\",\"data\":{\"label\":\"About art\",\"animation\":\"fade-left\"},\"elements\":[{\"node\":\"aa_003\",\"element\":\"image\",\"data\":{\"label\":\"Route\",\"background_image\":[{\"name\":\"alfra-route.svg\",\"type\":\"image\",\"src\":\"/assets/public/alfra-route.svg\"}],\"background_size\":\"contain\",\"aspect_ratio\":\"4:3\",\"class\":\"p-0\"}}]}]}]},{\"node\":\"aa_023\",\"element\":\"section\",\"data\":{\"label\":\"Toolbox\",\"class\":\"py-12\"},\"elements\":[{\"node\":\"aa_009\",\"element\":\"text_block\",\"data\":{\"label\":\"Toolbox header\",\"class\":\"text-center mb-10\"},\"elements\":[{\"node\":\"aa_007\",\"element\":\"subtitle\",\"data\":{\"label\":\"Eyebrow\",\"text\":\"Toolbox\",\"class\":\"text-primary uppercase tracking-wider text-sm font-semibold\"}},{\"node\":\"aa_008\",\"element\":\"title\",\"data\":{\"label\":\"Title\",\"text\":\"What I work with\",\"class\":\"display-5 mb-3\"}}]},{\"node\":\"aa_022\",\"element\":\"row\",\"data\":{\"label\":\"Toolbox row\",\"layout\":\"[25,25,25,25]\",\"spacing\":\"2\",\"col_padding\":\"p-0\",\"horizontal_alignment\":\"left\",\"vertical_alignment\":\"stretch\",\"row_height\":\"auto\",\"full_height\":false},\"elements\":[{\"node\":\"aa_012\",\"element\":\"col\",\"data\":{\"label\":\"Tool Languages\"},\"elements\":[{\"node\":\"aa_011\",\"element\":\"panel\",\"data\":{\"label\":\"Tool panel Languages\",\"variant\":\"gradient\",\"rounded\":\"xl\",\"bg_color\":\"secondary\",\"bg_opacity\":\"25\",\"class\":\"p-6 h-full\"},\"elements\":[{\"node\":\"aa_010\",\"element\":\"text_block_icon\",\"data\":{\"label\":\"Languages\",\"icon\":\"Code\",\"title\":\"Languages\",\"text\":\"JavaScript / TypeScript, Python, PHP, SQL\",\"class\":\"text-left\"}}]}]},{\"node\":\"aa_015\",\"element\":\"col\",\"data\":{\"label\":\"Tool Frontend\"},\"elements\":[{\"node\":\"aa_014\",\"element\":\"panel\",\"data\":{\"label\":\"Tool panel Frontend\",\"variant\":\"gradient\",\"rounded\":\"xl\",\"bg_color\":\"secondary\",\"bg_opacity\":\"25\",\"class\":\"p-6 h-full\"},\"elements\":[{\"node\":\"aa_013\",\"element\":\"text_block_icon\",\"data\":{\"label\":\"Frontend\",\"icon\":\"Layout\",\"title\":\"Frontend\",\"text\":\"React, Vite, Tailwind, shadcn/ui, SSR\",\"class\":\"text-left\"}}]}]},{\"node\":\"aa_018\",\"element\":\"col\",\"data\":{\"label\":\"Tool Backend\"},\"elements\":[{\"node\":\"aa_017\",\"element\":\"panel\",\"data\":{\"label\":\"Tool panel Backend\",\"variant\":\"gradient\",\"rounded\":\"xl\",\"bg_color\":\"secondary\",\"bg_opacity\":\"25\",\"class\":\"p-6 h-full\"},\"elements\":[{\"node\":\"aa_016\",\"element\":\"text_block_icon\",\"data\":{\"label\":\"Backend\",\"icon\":\"Server\",\"title\":\"Backend\",\"text\":\"Node.js, Express, Knex, Frappe, Yii2\",\"class\":\"text-left\"}}]}]},{\"node\":\"aa_021\",\"element\":\"col\",\"data\":{\"label\":\"Tool Ops\"},\"elements\":[{\"node\":\"aa_020\",\"element\":\"panel\",\"data\":{\"label\":\"Tool panel Ops\",\"variant\":\"gradient\",\"rounded\":\"xl\",\"bg_color\":\"secondary\",\"bg_opacity\":\"25\",\"class\":\"p-6 h-full\"},\"elements\":[{\"node\":\"aa_019\",\"element\":\"text_block_icon\",\"data\":{\"label\":\"Ops\",\"icon\":\"Rocket\",\"title\":\"Ops\",\"text\":\"PM2, Caddy, versioned releases, Cloudinary, Stripe\",\"class\":\"text-left\"}}]}]}]}]}]"
+    },
+    "Page Builder:Alfra Contact": {
+      "name": "Alfra Contact",
+      "module": "alfra",
+      "enable_history": 0,
+      "enable_comments": 0,
+      "doc_structure": "[{\"node\":\"ac_006\",\"element\":\"section\",\"data\":{\"label\":\"Contact\",\"class\":\"py-16\"},\"elements\":[{\"node\":\"ac_005\",\"element\":\"row\",\"data\":{\"label\":\"Contact row\",\"layout\":\"[50,50]\",\"spacing\":\"3\",\"col_padding\":\"p-0\",\"horizontal_alignment\":\"left\",\"vertical_alignment\":\"top\",\"row_height\":\"auto\",\"full_height\":false},\"elements\":[{\"node\":\"ac_002\",\"element\":\"col\",\"data\":{\"label\":\"Info\"},\"elements\":[{\"node\":\"ac_001\",\"element\":\"markdown\",\"data\":{\"label\":\"Contact info\",\"value\":\"# Contact\\n\\nHave a project, an idea, or a question about Loopar? Send me a message and I'll get back to you.\\n\\n**Email**\\n[hello@alfra.dev](mailto:hello@alfra.dev)\\n\\n**Elsewhere**\\n- [GitHub](https://github.com/alfradotdev)\\n- [X / Twitter](https://x.com/alfradev)\\n- [LinkedIn](https://www.linkedin.com/in/alfradev)\\n\\n## Good fits\\n\\n- Business software on Loopar or ERPNext\\n- Websites for service companies, with quoting tools built in\\n- Loopar consulting and contributions\\n\"}}]},{\"node\":\"ac_004\",\"element\":\"col\",\"data\":{\"label\":\"Form\"},\"elements\":[{\"node\":\"ac_003\",\"element\":\"contact_form\",\"data\":{\"label\":\"Contact\",\"entity\":\"Contact Form\"}}]}]}]}]"
+    },
+    "Entity:Role": {
+      "__app__": "loopar"
+    },
+    "Role:Alfra Manager": {
+      "name": "Alfra Manager",
+      "app": "alfra",
+      "is_system_role": 1,
+      "disabled": 0,
+      "description": "Full access to every document of the Alfra app, nothing else of the system."
+    },
+    "Role:Alfra User": {
+      "name": "Alfra User",
+      "app": "alfra",
+      "is_system_role": 1,
+      "disabled": 0,
+      "description": "Reads everything in the Alfra app; creates and edits only its own records."
+    },
+    "Entity:Post": {
+      "__app__": "loopar"
+    },
+    "Post:Hello alfra.dev": {
+      "name": "Hello alfra.dev",
+      "title": "Hello, alfra.dev",
+      "slug": "hello-alfra-dev",
+      "app": "alfra",
+      "author": "Alfredo Ramirez",
+      "published": 1,
+      "featured": 0,
+      "published_on": "2026-10-10",
+      "reading_time": 1,
+      "summary": "Why this site exists, why it runs on Loopar, and what I'll be writing about.",
+      "description": "This is the first post on **alfra.dev**, and it's a small milestone: the site you're reading is a [Loopar](https://loopar.build) app — the open-source framework I've been building.\n\n## Why a personal site now\n\nFor a long time my work was spread across repositories, client sites and half-finished notes. I wanted one place that links it all together: the products I build, the client work running in production, and what I learn along the way.\n\n## Why build it with Loopar\n\nI could have used a static site generator. But dogfooding is the best test a framework can get. To publish this blog I added a generic **Post** entity to Loopar's core, so every Loopar site can now have a blog with the same collection element that already lists projects and services. If something felt clumsy while building this site, that's a bug I now get to fix.\n\n## What I'll write about\n\n- **Building a framework**: architecture decisions in Loopar — multi-tenancy, the designer, moving the data layer to Knex\n- **Shipping to real businesses**: what restaurants, contractors and cleaning companies actually need from software\n- **The path**: from Computer Engineering at UNITEC in Honduras, to PHP and ERPNext, to building my own tools in Boston\n\nIf any of that sounds useful, check back — or [say hello](/contact).\n",
+      "cover_image": "[{\"name\":\"cover-post-hello.svg\",\"type\":\"image\",\"src\":\"/assets/public/cover-post-hello.svg\"}]",
+      "tags": "Loopar, Meta",
+      "canonical_url": ""
+    },
+    "Entity:Project": {
+      "__app__": "loopar"
+    },
+    "Entity:Project Category": {
+      "__app__": "loopar"
+    },
+    "Project Category:Client Work": {
+      "name": "Client Work",
+      "title": "Client Work",
+      "slug": "client-work",
+      "app": "alfra",
+      "order": 2,
+      "icon": "Briefcase",
+      "description": ""
+    },
+    "Project:BW Construction": {
+      "name": "BW Construction",
+      "title": "BW Construction",
+      "slug": "bw-construction",
+      "app": "alfra",
+      "category": "Client Work",
+      "published": 0,
+      "featured": 0,
+      "custom_url": "",
+      "summary": "Company website for a construction contractor — services, reviews and lead capture.",
+      "description": "A marketing site for a construction company, built entirely with Loopar's page builder.\r\n\r\n* Services, reviews and contact pages managed from the desk — no developer needed for content changes\r\n* Contact messages land in the desk as records, ready to follow up\r\n* One of the first production sites running on Loopar, and the template I reuse for service businesses",
+      "cover_image": "[{\"name\":\"cover-bw.svg\",\"type\":\"image\",\"src\":\"/assets/public/cover-bw.svg\"}]",
+      "images": "[]",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "client": "BW Construction",
+      "external_url": "",
+      "tags": "Loopar, Website, Construction"
+    },
+    "Project:Fabulous Cleaning": {
+      "name": "Fabulous Cleaning",
+      "title": "Fabulous Cleaning",
+      "slug": "fabulous-cleaning",
+      "app": "alfra",
+      "category": "Client Work",
+      "published": 0,
+      "featured": 0,
+      "custom_url": "",
+      "summary": "WordPress-to-Loopar migration with a server-driven cleaning quote calculator.",
+      "description": "Migrated a WordPress site off shared hosting and onto my own Loopar cloud — then made it more useful than the original.\r\n\r\n* **Service calculator**: the whole configuration (counters, options, multipliers, minimum charge) is served by the server, so pricing changes never require a deploy\r\n* The same calculator component powers the public site *and* the desk, so staff can quote a customer over the phone\r\n* Quotes are stored as structured snapshots, editable while the lead is still open",
+      "cover_image": "[{\"name\":\"cover-fabulous.svg\",\"type\":\"image\",\"src\":\"/assets/public/cover-fabulous.svg\"}]",
+      "images": "[]",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "client": "Fabulous Cleaning — Lynn, MA",
+      "external_url": "https://fabulouscleaning.boston",
+      "tags": "Loopar, Migration, Calculator"
+    },
+    "Project:Couple Hardwood Floors": {
+      "name": "Couple Hardwood Floors",
+      "title": "Couple Hardwood Floors",
+      "slug": "couple-hardwood-floors",
+      "app": "alfra",
+      "category": "Client Work",
+      "published": 1,
+      "featured": 0,
+      "custom_url": "",
+      "summary": "Website and quoting engine for a hardwood flooring company in Boston.",
+      "description": "Website and internal quoting tool for a hardwood flooring business.\n\n- **Quotes built from work lines by process** — install, sand, stain, repair — where works can depend on each other, so the flow is data, not code\n- Printable customer quotes with letterhead through Loopar print formats\n- Project gallery and services catalog driven by Loopar's generic collections\n",
+      "cover_image": "[{\"name\":\"cover-couple.svg\",\"type\":\"image\",\"src\":\"/assets/public/cover-couple.svg\"}]",
+      "images": "[]",
+      "start_date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "client": "Couple Hardwood Floors — Boston, MA",
+      "external_url": "",
+      "tags": "Loopar, Quoting, Print formats"
+    },
+    "Project Category:Product": {
+      "name": "Product",
+      "title": "Product",
+      "slug": "product",
+      "app": "alfra",
+      "order": 1,
+      "icon": "Package",
+      "description": ""
+    },
+    "Project:Ren POS": {
+      "name": "Ren POS",
+      "title": "Ren POS",
+      "slug": "ren-pos",
+      "app": "alfra",
+      "category": "Product",
+      "published": 1,
+      "featured": 1,
+      "custom_url": "",
+      "summary": "Restaurant point of sale for ERPNext: floor plan, kitchen flows, reservations and payments.",
+      "description": "A restaurant POS built as a Frappe app for **ERPNext v16**.\n\n- Visual floor plan, table status and reservations\n- Configurable kitchen flows and production stations, with a kitchen screen\n- Menus, options and combos, recipes\n- Roles with manager PIN, tips, split checks, card readers (Stripe Terminal) and cash register\n\nBuilt with Frappe & ERPNext on the backend and React + Vite + Tailwind on the frontend.\n",
+      "cover_image": "[{\"name\":\"cover-ren.svg\",\"type\":\"image\",\"src\":\"/assets/public/cover-ren.svg\"}]",
+      "images": "[]",
+      "start_date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "client": "",
+      "external_url": "https://github.com/alphabit-technology/renpos",
+      "tags": "Frappe, ERPNext, React, POS"
+    },
+    "Project:Loopar": {
+      "name": "Loopar",
+      "title": "Loopar",
+      "slug": "loopar",
+      "app": "alfra",
+      "category": "Product",
+      "published": 1,
+      "featured": 1,
+      "custom_url": "",
+      "summary": "Open-source full-stack meta-framework: define an entity once, get database, API, forms and views.",
+      "description": "**Loopar** is the framework I wish I had when I started building business software. You define an entity — visually or in JSON — and Loopar generates the schema, the REST API, the forms, the list views and the controllers.\n\n- **Visual designer** for entities and pages, with full code access the moment you need it\n- **Single-core multi-tenancy**: many sites served by one process, each with its own database\n- **Multi-database** through Knex: MySQL, PostgreSQL and SQLite\n- **SSR** React + Vite + Tailwind frontend\n- Batteries included: auth and owner-based permissions, email, pluggable storage (Cloudinary), analytics, an OpenAI-compatible AI layer, and a SaaS control app with Stripe subscriptions\n\nLoopar is self-recursive — it's built with Loopar — and it's MIT licensed. This website is a Loopar app.\n",
+      "cover_image": "[{\"name\":\"cover-loopar.svg\",\"type\":\"image\",\"src\":\"/assets/public/cover-loopar.svg\"}]",
+      "images": "[]",
+      "start_date": "2026-10-11",
+      "end_date": "2026-10-11",
+      "client": "",
+      "external_url": "https://loopar.build",
+      "tags": "Open source, Node.js, React, Framework"
+    }
+  },
+  "postInstaller": {
+    "App:alfra": "link",
+    "Entity:Alfra About": "link",
+    "Entity:Alfra Blog": "link",
+    "Entity:Alfra Contact": "link",
+    "Entity:Alfra Home": "link",
+    "Entity:Alfra Projects": "link"
+  }
+}

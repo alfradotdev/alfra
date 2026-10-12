@@ -1,0 +1,7 @@
+{
+  "name": "Alfra Contact",
+  "module": "alfra",
+  "enable_history": 0,
+  "enable_comments": 0,
+  "doc_structure": "[{\"node\":\"ac_006\",\"element\":\"section\",\"data\":{\"label\":\"Contact\",\"class\":\"py-16\"},\"elements\":[{\"node\":\"ac_005\",\"element\":\"row\",\"data\":{\"label\":\"Contact row\",\"layout\":\"[50,50]\",\"spacing\":\"3\",\"col_padding\":\"p-0\",\"horizontal_alignment\":\"left\",\"vertical_alignment\":\"top\",\"row_height\":\"auto\",\"full_height\":false},\"elements\":[{\"node\":\"ac_002\",\"element\":\"col\",\"data\":{\"label\":\"Info\"},\"elements\":[{\"node\":\"ac_001\",\"element\":\"markdown\",\"data\":{\"label\":\"Contact info\",\"value\":\"# Contact\\n\\nHave a project, an idea, or a question about Loopar? Send me a message and I'll get back to you.\\n\\n**Email**\\n[hello@alfra.dev](mailto:hello@alfra.dev)\\n\\n**Elsewhere**\\n- [GitHub](https://github.com/alfradotdev)\\n- [X / Twitter](https://x.com/alfradev)\\n- [LinkedIn](https://www.linkedin.com/in/alfradev)\\n\\n## Good fits\\n\\n- Business software on Loopar or ERPNext\\n- Websites for service companies, with quoting tools built in\\n- Loopar consulting and contributions\\n\"}}]},{\"node\":\"ac_004\",\"element\":\"col\",\"data\":{\"label\":\"Form\"},\"elements\":[{\"node\":\"ac_003\",\"element\":\"contact_form\",\"data\":{\"label\":\"Contact\",\"entity\":\"Contact Form\"}}]}]}]}]"
+}

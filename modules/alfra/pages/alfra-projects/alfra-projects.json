@@ -1,0 +1,7 @@
+{
+  "name": "Alfra Projects",
+  "module": "alfra",
+  "enable_history": 0,
+  "enable_comments": 0,
+  "doc_structure": "[{\"node\":\"ap_005\",\"element\":\"section\",\"data\":{\"label\":\"Projects header\",\"class\":\"pt-16 pb-4\"},\"elements\":[{\"node\":\"ap_004\",\"element\":\"text_block\",\"data\":{\"label\":\"Header\",\"class\":\"text-center mb-10\"},\"elements\":[{\"node\":\"ap_001\",\"element\":\"subtitle\",\"data\":{\"label\":\"Eyebrow\",\"text\":\"Projects\",\"class\":\"text-primary uppercase tracking-wider text-sm font-semibold\"}},{\"node\":\"ap_002\",\"element\":\"title\",\"data\":{\"label\":\"Title\",\"text\":\"Things I've built\",\"class\":\"display-5 mb-3\"}},{\"node\":\"ap_003\",\"element\":\"paragraph\",\"data\":{\"label\":\"Paragraph\",\"text\":\"Open-source products I create and maintain, and client work running in production on Loopar.\",\"class\":\"text-muted-foreground max-w-2xl mx-auto\"}}]}]},{\"node\":\"ap_007\",\"element\":\"section\",\"data\":{\"label\":\"Projects list\",\"class\":\"pb-16\"},\"elements\":[{\"node\":\"ap_006\",\"element\":\"collection\",\"data\":{\"label\":\"All projects\",\"options\":\"Project\",\"columns\":3,\"page_size\":12}}]}]"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Alfra Blog",
+  "module": "alfra",
+  "enable_history": 0,
+  "enable_comments": 0,
+  "doc_structure": "[{\"node\":\"ab_005\",\"element\":\"section\",\"data\":{\"label\":\"Blog header\",\"class\":\"pt-16 pb-4\"},\"elements\":[{\"node\":\"ab_004\",\"element\":\"text_block\",\"data\":{\"label\":\"Header\",\"class\":\"text-center mb-10\"},\"elements\":[{\"node\":\"ab_001\",\"element\":\"subtitle\",\"data\":{\"label\":\"Eyebrow\",\"text\":\"Blog\",\"class\":\"text-primary uppercase tracking-wider text-sm font-semibold\"}},{\"node\":\"ab_002\",\"element\":\"title\",\"data\":{\"label\":\"Title\",\"text\":\"Writing\",\"class\":\"display-5 mb-3\"}},{\"node\":\"ab_003\",\"element\":\"paragraph\",\"data\":{\"label\":\"Paragraph\",\"text\":\"Build-in-public notes: architecture decisions, lessons from shipping to real businesses, and the road from Honduras to Boston.\",\"class\":\"text-muted-foreground max-w-2xl mx-auto\"}}]}]},{\"node\":\"ab_007\",\"element\":\"section\",\"data\":{\"label\":\"Blog list\",\"class\":\"pb-16\"},\"elements\":[{\"node\":\"ab_006\",\"element\":\"collection\",\"data\":{\"label\":\"All posts\",\"options\":\"Post\",\"columns\":3,\"page_size\":9,\"empty_message\":\"No posts yet — the first one is coming soon.\"}}]}]"
+}
